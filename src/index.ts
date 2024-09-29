@@ -1,3 +1,11 @@
+/*
+ * @Version    : v1.00
+ * @Author     : Wang Chao
+ * @Date       : 2024-08-18 09:52
+ * @LastAuthor : Wang Chao
+ * @LastTime   : 2024-09-29 09:49
+ * @desc       :
+ */
 // FIXME 单选默认值
 
 import { basekit, FieldType, field, FieldComponent, FieldCode } from '@lark-opdev/block-basekit-server-api';
@@ -11,6 +19,9 @@ const { t } = field;
 basekit.addDomainList(['api.exchangerate-api.com']);
 
 basekit.addField({
+  options: {
+    disableAutoUpdate: true, // 关闭自动更新
+  },
   // 定义捷径的i18n语言资源
   i18n: {
     messages: {

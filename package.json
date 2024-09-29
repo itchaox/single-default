@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@lark-opdev/block-basekit-cli": "1.0.4-alpha.19"
+    "@lark-opdev/block-basekit-cli": "1.0.4-alpha.24"
   },
   "dependencies": {
-    "@lark-opdev/block-basekit-server-api": "1.0.4-alpha.19",
+    "@lark-opdev/block-basekit-server-api": "1.0.4-alpha.24",
     "moment": "^2.30.1",
     "moment-lunar": "0.0.4"
   }
